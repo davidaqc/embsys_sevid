@@ -1,1 +1,6 @@
 credentials.json
+temp.jpg
+img-out/
+resources/
+text-out/
+__pycache__/
