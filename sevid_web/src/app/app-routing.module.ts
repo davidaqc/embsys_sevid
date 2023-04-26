@@ -3,11 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 
 // Importar componentes para manejar las rutas
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { MenuComponent } from './componentes/menu/menu.component';
 
 const routes: Routes = [
-  // Rutas Cliente
+  // Rutas
   {path: '', redirectTo:'login', pathMatch:'full'}, // ruta por defecto
   {path:'login', component:IniciarSesionComponent},
+  {path:'menu', component:MenuComponent},
+  {path: '**', pathMatch:'full', redirectTo: ''}
 ];
 
 @NgModule({
@@ -17,4 +21,4 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 // Exportar todos los componentes que estan en router
-export const routingComponents = [IniciarSesionComponent]
+export const routingComponents = [IniciarSesionComponent, NavbarComponent, MenuComponent]
