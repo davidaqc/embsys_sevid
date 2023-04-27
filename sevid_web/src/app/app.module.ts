@@ -10,13 +10,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { MenuComponent } from './componentes/menu/menu.component';
+import { CapturarComponent } from './componentes/capturar/capturar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IniciarSesionComponent,
     NavbarComponent,
-    MenuComponent
+    MenuComponent,
+    CapturarComponent
   ],
   imports: [
     BrowserModule,
