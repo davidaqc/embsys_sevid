@@ -7,3 +7,16 @@ El modo de uso del sistema es mediante una aplicación web, donde el usuario pue
 
 Este proyecto es importante porque ayudará a prevenir el fraude y la falsificación de documentos de identidad, lo que es esencial para garantizar la seguridad y la integridad de los procesos gubernamentales y comerciales.
 
+# Pasos de configuración
+1. Asegúrese de tener instalado Python en su sistema. Luego, ejecute el siguiente comando para instalar las dependencias del proyecto.
+    
+    `pip3 install -r requirements.txt`
+
+2. Descargue el archivo de información de electores desde [aquí](https://www.tse.go.cr/descarga_padron.htm). Luego, coloque el archivo descargado en la carpeta llamada resources con el nombre padron.txt.
+
+3. Coloque la imagen del documento de identidad en la carpeta resources y nómbrela imagen.jpg.
+
+4. Abra una terminal y ejecute el siguiente comando.
+
+    `python3 main.py`
+
