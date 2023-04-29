@@ -1,11 +1,13 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
+from test_ocr import run_ocr
 
 app = Flask(__name__, template_folder='/myapp')
 CORS(app)
 
 @app.route('/tomar_foto')
 def api_tomar_foto():
+    run_ocr()
     resultado = "Hola"
     return jsonify({'resultado': resultado})
 
