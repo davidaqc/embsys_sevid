@@ -25,10 +25,8 @@ export class VerificarComponent {
 
       // Lógica para enviar el archivo al API
       this.api.EnviarImagen(uploadData)
-      .subscribe(response => {
-
-        alert("Imagen enviada");
-
+      .subscribe((response: any) => {
+        alert(response.mensaje);
       }, (error: any) => {
         alert("Error al intentar conectar con el server: " + error.message)
       });
@@ -36,7 +34,6 @@ export class VerificarComponent {
     } else {
       alert("No se ha seleccionado ningún archivo.");
     }
-    console.log("a")
 
   }
 

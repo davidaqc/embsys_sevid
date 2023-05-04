@@ -34,4 +34,10 @@ export class ServiciosService {
     return this.http.post(direccion, Imagen);
   }
 
+  SolicitarDatos() {
+    let direccion = this.url + "solicitar_datos";
+    console.log("SolicitarDatosServicio");
+    return this.http.get(direccion);
+  }
+
 }

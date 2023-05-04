@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-3">
+  <div class="card mt-5">
+    <div class="card-header">Bienvenido al Sistema de Verificación de Identidades (SEVID)</div>
+    <div class="card-body">
+      <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
+        <div class="col-sm-10">
+          {{ nombre }}
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="apellido1" class="col-sm-2 col-form-label">Apellido1:</label>
+        <div class="col-sm-10">
+            {{ apellido1 }}
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="apellido2" class="col-sm-2 col-form-label">Apellido2:</label>
+        <div class="col-sm-10">
+            {{ apellido2 }}
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="cedula" class="col-sm-2 col-form-label">Cédula:</label>
+        <div class="col-sm-10">
+            {{ cedula }}
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="datosValidos" class="col-sm-2 col-form-label">¿Son los datos validos?</label>
+        <div class="col-sm-10">
+            {{ datosValidos }}
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-primary mb-3" (click)="solicitarDatos()">Solicitar Datos</button>
+      </div>
+    </div>
+  </div>
+</div>

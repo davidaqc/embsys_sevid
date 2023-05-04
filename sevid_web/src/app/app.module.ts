@@ -13,6 +13,7 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { CapturarComponent } from './componentes/capturar/capturar.component';
 import { VerificarComponent } from './componentes/verificar/verificar.component';
+import { ResultadosComponent } from './componentes/resultados/resultados.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { VerificarComponent } from './componentes/verificar/verificar.component'
     NavbarComponent,
     MenuComponent,
     CapturarComponent,
-    VerificarComponent
+    VerificarComponent,
+    ResultadosComponent
   ],
   imports: [
     BrowserModule,
