@@ -6,6 +6,7 @@ import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-ses
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { CapturarComponent } from './componentes/capturar/capturar.component';
+import { VerificarComponent } from './componentes/verificar/verificar.component';
 
 const routes: Routes = [
   // Rutas
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'login', component:IniciarSesionComponent},
   {path:'menu', component:MenuComponent},
   {path:'capturar', component:CapturarComponent},
+  {path:'verificar', component:VerificarComponent},
   {path: '**', pathMatch:'full', redirectTo: ''}
 ];
 
@@ -23,4 +25,4 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 // Exportar todos los componentes que estan en router
-export const routingComponents = [IniciarSesionComponent, NavbarComponent, MenuComponent, CapturarComponent]
+export const routingComponents = [IniciarSesionComponent, NavbarComponent, MenuComponent, CapturarComponent, VerificarComponent]

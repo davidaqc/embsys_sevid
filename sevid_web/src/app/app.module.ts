@@ -12,6 +12,7 @@ import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-ses
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { CapturarComponent } from './componentes/capturar/capturar.component';
+import { VerificarComponent } from './componentes/verificar/verificar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CapturarComponent } from './componentes/capturar/capturar.component';
     IniciarSesionComponent,
     NavbarComponent,
     MenuComponent,
-    CapturarComponent
+    CapturarComponent,
+    VerificarComponent
   ],
   imports: [
     BrowserModule,
