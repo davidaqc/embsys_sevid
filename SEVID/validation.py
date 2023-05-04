@@ -99,7 +99,8 @@ with open(archivo_padron, "r") as archivo:
         apellido2 = campos[7].strip()
         
         # Verificar si los datos personales están presentes en la línea
-        if cedula == datos_personales[0] and nombre == datos_personales[1] and apellido1 == datos_personales[2] and apellido2 == datos_personales[3]:
+        #if cedula == datos_personales[0] and nombre == datos_personales[1] and apellido1 == datos_personales[2] and apellido2 == datos_personales[3]:
+        if cedula == datos_personales[0]:
             print("Los datos personales están presentes en el archivo.")
             break
     else:
