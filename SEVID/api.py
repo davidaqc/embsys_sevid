@@ -5,6 +5,7 @@ from flask_cors import CORS
 from flask_cors import cross_origin
 from test_ocr import run_ocr
 from captureImage import takeImage
+from validation import validar_datos
 
 app = Flask(__name__, template_folder='/myapp')
 CORS(app)
@@ -58,6 +59,13 @@ def api_enviar_imagen() -> str:
 
     # Retornar una respuesta satisfactoria
     return jsonify({'mensaje': 'Imagen guardada exitosamente.'}), 200
+
+@app.route('/solicitar_datos')
+def api_solicitar_datos():
+    print("API: Solicitar Datos")
+
+    data = validar_datos()
+    return jsonify({'Datos': data})
 
 if __name__ == '__main__':
 
