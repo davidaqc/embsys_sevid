@@ -23,7 +23,7 @@ export class VerificarComponent {
 
     if (this.selectedFile) {
       const uploadData = new FormData();
-      uploadData.append('image', this.selectedFile, this.selectedFile.name);
+      uploadData.append('image', this.selectedFile, 'imagen.jpg');
 
       // Lógica para enviar el archivo al API
       this.mostrarCarga = true;
