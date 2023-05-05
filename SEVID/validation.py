@@ -1,8 +1,13 @@
+import os
+
 def validar_datos():
 
     """
     Validación de los datos del documento de identidad con los datos del archivo de padrón.
     """
+
+    if not os.path.exists('text-out/text-out.txt'):
+        return False
 
     # Leer los datos del archivo text-outout.txt
     with open('text-out/text-out.txt', 'r') as archi_file:
@@ -76,7 +81,6 @@ def validar_datos():
         # Si todas las validaciones pasan, es una cédula de identidad válida
         return True
 
-    cedula_cr = ""
     if es_cedula_cr(cedula):
         cedula_cr = "Sí. La cadena representa una cédula de identidad de Costa Rica."
         print("Sí. La cadena representa una cédula de identidad de Costa Rica.")
@@ -105,7 +109,6 @@ def validar_datos():
             
             # Verificar si los datos personales están presentes en la línea
             #if cedula == datos_personales[0] and nombre == datos_personales[1] and apellido1 == datos_personales[2] and apellido2 == datos_personales[3]:
-            datosPersonalesPresentes = ""
             if cedula == datos_personales[0]:
                 datosPersonalesPresentes = "Sí. Los datos personales están presentes en el archivo."
                 print("Sí. Los datos personales están presentes en el archivo.")
