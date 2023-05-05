@@ -17,31 +17,40 @@ export class VerificarComponent {
     this.selectedFile = event.target.files[0];
   }
 
-  cargarImagen() {
+  mostrarCarga: boolean = false;
+
+  enviarImagen() {
 
     if (this.selectedFile) {
       const uploadData = new FormData();
       uploadData.append('image', this.selectedFile, this.selectedFile.name);
 
       // Lógica para enviar el archivo al API
+      this.mostrarCarga = true;
       this.api.EnviarImagen(uploadData)
       .subscribe((response: any) => {
+
+        this.mostrarCarga = false;
         alert(response.mensaje);
+
       }, (error: any) => {
         alert("Error al intentar conectar con el server: " + error.message)
       });
       
     } else {
+      this.mostrarCarga = false;
       alert("No se ha seleccionado ningún archivo.");
     }
 
   }
 
   utilizarPrecargada() {
+
+    this.mostrarCarga = true;
     this.api.GenerarDatos()
       .subscribe((response: any) => {
 
-        alert("Esperando que se generen los datos...");
+        this.mostrarCarga = false;
         if (response.Datos != "Error") {
           alert("Datos generados exitosamente");
         } else {
@@ -49,6 +58,7 @@ export class VerificarComponent {
         }
 
       }, (error: any) => {
+        this.mostrarCarga = false;
         alert("Error al intentar conectar con el server: " + error.message)
       });
   }

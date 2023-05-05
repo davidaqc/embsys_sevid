@@ -2,7 +2,7 @@
 
 <div class="container mt-3">
   <div class="card mt-5">
-    <div class="card-header">Bienvenido al Sistema de Verificación de Identidades (SEVID)</div>
+    <div class="card-header">Sistema de Verificación de Identidades (SEVID)</div>
     <div class="card-body">
       <div class="form-group row">
         <label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
@@ -35,8 +35,17 @@
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <button class="btn btn-primary mb-3" (click)="solicitarDatos()">Solicitar Datos</button>
+        <button class="btn btn-primary mb-3 ancho_boton" (click)="solicitarDatos()">Solicitar Datos</button>
       </div>
+      <ng-container *ngIf="mostrarCarga">
+        <!-- Vista de espera -->
+        <div class="text-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <p>Esperando respuesta...</p>
+        </div>
+      </ng-container>
     </div>
   </div>
 </div>
