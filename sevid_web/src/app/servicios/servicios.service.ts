@@ -9,7 +9,7 @@ export class ServiciosService {
 
   constructor(private http: HttpClient) { }
   
-  url: string = "https://127.0.0.1:4443/";
+  url: string = "https://192.168.1.155:4443/";
 
   TomarFoto() {
     let direccion = this.url + "tomar_foto";
