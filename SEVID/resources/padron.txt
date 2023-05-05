@@ -1,64 +1,11 @@
-101019387,101026, ,20230416,00000,CLAUDIA MANUELA               ,ESPINOZA                  ,FONSECA                   
-101053316,104015, ,20280207,00000,LUCILA                        ,PORRAS                    ,AGUERO                    
-101075138,119119, ,20300204,00000,OFELIA                        ,CASTILLO                  ,ROJAS                     
-101086526,101012, ,20280207,00000,DINORA                        ,OBANDO                    ,GARCIA                    
-101120440,112028, ,20270227,00000,ERLINDO                       ,FERNANDEZ                 ,FALLAS                    
-101141655,103033, ,20300204,00000,TRINIDAD                      ,VINDAS                    ,PEREZ                     
-101142031,112007, ,20300630,00000,INOCENCIA                     ,MEZA                      ,VEGA                      
-101153046,101013, ,20300204,00000,MARTA                         ,RECIO                     ,RECIO 
-205630472,201003, ,20280924,00000,JACQUELINE VANESSA            ,BRENES                    ,TORRES                    
-205630473,204008, ,20300204,00000,KARLA VIVIANA                 ,JIMENEZ                   ,MADRIGAL                  
-205630475,201001, ,20280207,00000,JOSE LUIS                     ,RODRIGUEZ                 ,VARGAS                    
-205630476,206017, ,20300220,00000,CRISTIAN DAVID                ,AGUILERA                  ,AGUILERA                  
-205630477,209001, ,20250202,00000,JORGE WILLIAM                 ,ALVAREZ                   ,ROJAS                     
-205630478,104004, ,20320214,00000,ROSA IRENE                    ,JIMENEZ                   ,DIAZ                      
-205630479,210089, ,20250325,00000,ASDRUBAL                      ,VARGAS                    ,MOLINA                    
-205630480,201002, ,20320720,00000,CARLOS ANDRES                 ,FONSECA                   ,VENEGAS                   
-205630481,201020, ,20261011,00000,YEIMI                         ,ESPINOZA                  ,ALVARADO                  
-205630482,114004, ,20300217,00000,YEINI DE LOS ANGELES          ,ESPINOZA                  ,ALVARADO                  
-205630484,703001, ,20320210,00000,JAVIER ALBERTO                ,ALVARADO                  ,PALMA                     
-205630485,104022, ,20320915,00000,ELIECER GERARDO               ,SALGUERO                  ,GUERRERO                  
-205630486,405002, ,20240717,00000,ELSY VANESSA                  ,RODRIGUEZ                 ,ALVARADO                  
-205630487,201055, ,20250408,00000,JENDRY PATRICIA               ,ALFARO                    ,HERRERA                   
-205630488,201043, ,20320202,00000,RANDAL                        ,VILLALOBOS                ,ARROYO                    
-205630489,201002, ,20320610,00000,ANGEL                         ,SEGURA                    ,ALVAREZ                   
-205630490,208010, ,20300204,00000,SUSET                         ,ARIAS                     ,ZUMBADO          
+101019387,101026, ,20230416,00000,CLAUDIA MANUELA               ,ESPINOZA                  ,FONSECA                                                     
+205630472,201003, ,20280924,00000,JACQUELINE VANESSA            ,BRENES                    ,TORRES                                     
 304450381,301007, ,20261019,00000,JOSE ALBERTO                  ,RODRIGUEZ                 ,PIEDRA                    
 304450382,301009, ,20290109,00000,MARIA ELIZABETH               ,QUESADA                   ,CALDERON                  
 304450383,301018, ,20320825,00000,WALTER EDUARDO                ,ALVARADO                  ,SOLANO                    
-304450384,307006, ,20280514,00000,NOELIA DEL CARMEN             ,SOTO                      ,VASQUEZ                   
-304450385,307002, ,20320712,00000,TANIA                         ,MORA                      ,QUESADA                   
-304450386,307001, ,20300413,00000,JOSE CARLOS                   ,ZUÑIGA                    ,GOMEZ                     
-304450387,307011, ,20320202,00000,ANDREA XIOMARA                ,SOLANO                    ,SILES    
-304960822,301027, ,20320301,00000,NATALY PAOLA                  ,BRENES                    ,ALVARADO                  
-304960823,302001, ,20240814,00000,BRYAN ANDRE                   ,CORNEJO                   ,FERNANDEZ                 
-304960824,302001, ,20300204,00000,JOSE ALFREDO                  ,RAMIREZ                   ,MATA                      
-304960825,307001, ,20280207,00000,VALERIA                       ,ZUÑIGA                    ,GUILLEN                   
-304960826,117005, ,20240826,00000,NANCY MARIA                   ,GOMEZ                     ,MARIN                     
 304960827,301009, ,20280515,00000,DAVID ANTONIO                 ,QUESADA                   ,CALDERON                  
 304960828,301011, ,20300219,00000,CARLOS ADRIAN                 ,PICADO                    ,PIEDRA                    
-304960829,301011, ,20240801,00000,EDGAR ANDRES                  ,PICADO                    ,PIEDRA                    
-304960830,301008, ,20241008,00000,KARLA MARIA                   ,GUZMAN                    ,HIDALGO                   
-304960831,301001, ,20320202,00000,MARIA JOSE                    ,RAMIREZ                   ,CEDEÑO                    
-304960832,301027, ,20330113,00000,LUIS GABRIEL                  ,MATA                      ,TENCIO    
-702350979,702010, ,20320728,00000,ALEJANDRO                     ,JIMENEZ                   ,HIDALGO                   
-702350980,702015, ,20320202,00000,GIANCARLOS GERARDO            ,MARIN                     ,JIMENEZ                   
-702350981,703035, ,20320202,00000,STEPHANIE DE LOS ANGELES      ,CASTILLO                  ,RAMIREZ                   
 702350982,702010, ,20321212,00000,ALBERLIN MAILETH              ,ARGUELLO                  ,ALEMAN                    
 702350983,702010, ,20321206,00000,PABLO ANDRES                  ,AZOFEIFA                  ,GONZALEZ                  
-702350984,703036, ,20280223,00000,LORENA DEL CARMEN             ,VINDAS                    ,GONZALEZ                  
-702350985,101031, ,20300204,00000,MARLENS MARIA                 ,CASTILLO                  ,MAIRENA                   
-702350986,702003, ,20280315,00000,KIMBERLY                      ,PICADO                    ,AGUILAR  
-801170057,401004, ,20280207,00000,KARIME ALEJANDRA              ,GARCIA                    ,LUNA                      
-801170058,410041, ,20320322,00000,JOSEFA FLORENTINA             ,SANDOVAL                  ,SANDOVAL                  
-801170060,611001, ,20260830,00000,ELIANA MARCELA                ,SOSSA                     ,SANCHEZ                   
-801170061,110002, ,20260829,00000,LUIS EDUARDO                  ,ZEA                       ,TOBON                     
-801170062,113006, ,20260824,00000,PETRONA DEL CARMEN            ,RUIZ                      ,RUIZ                      
-801170063,118006, ,20260831,00000,JACQUELINE DEL CARMEN         ,RAMIREZ                   ,TORRES                    
 801170064,101016, ,20280803,00000,MARBEL JUNIESKY               ,VELASQUEZ                 ,BONE                      
-801170065,103002, ,20301214,00000,SAUL ALBERTO                  ,HERNANDEZ                 ,RODRIGUEZ                 
-801170066,824002, ,20260818,00000,REMIGIO NICOLAS               ,SANDINO                   ,ALVARADO                  
-801170067,108001, ,20260819,00000,JUN LIAN                      ,HUANG                     ,LI                        
-801170068,823001, ,20260823,00000,KARLA VANESSA                 ,LARGAESPADA               ,RIVERA                    
-801170069,103007, ,20320224,00000,SANDRA MARIA                  ,MENDOZA                   ,TERCERO                   
-801170070,106001, ,20260823,00000,EMILIO JOSE                   ,ICABALCETA                ,TORRES              
+801170065,103002, ,20301214,00000,SAUL ALBERTO                  ,HERNANDEZ                 ,RODRIGUEZ                                

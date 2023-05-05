@@ -3,7 +3,7 @@ import cv2
 def takeImage():
     # Inicializar la cámara: 
     # 0: camara interna, 1: camara externa
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     # Revisar si la cámara está abierta correctamente
     if not cap.isOpened():

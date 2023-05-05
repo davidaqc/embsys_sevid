@@ -70,4 +70,4 @@ def api_solicitar_datos():
 if __name__ == '__main__':
 
     # Start the HTTPS server
-    app.run(host='0.0.0.0', port=4443, ssl_context=('cert.pem', 'key.pem'))
+    app.run(host='192.168.1.155', port=4443, ssl_context=('cert.pem', 'key.pem'))
